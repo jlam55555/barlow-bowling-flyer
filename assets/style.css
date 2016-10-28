@@ -24,6 +24,7 @@ img#logo {
   width: 4in;
   height: 4in;
   float: left;
+  margin-left: 0.5in;
 }
 div#header {
   padding: 0;
@@ -32,10 +33,10 @@ div#header {
 }
 div#cover {
   background-color: #2c3e50;
-  height: 92.5%;
+  height: 3.8in;
   width: 7.5in;
   right: 0;
-  top: 3.75%;
+  top: 0.2in;
   position: absolute;
   padding-left: 0.125in;
 }
