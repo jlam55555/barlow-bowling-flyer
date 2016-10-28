@@ -61,7 +61,7 @@ div#slogan {
   line-height: 0.75in;
 }
 div#details {
-  background-image: url(assets/background.jpg);
+  background-image: url(background.jpg);
   background-size: cover;
 }
 div#footnotes {
