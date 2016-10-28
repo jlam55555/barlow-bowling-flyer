@@ -60,6 +60,10 @@ div#slogan {
   height: 0.75in;
   line-height: 0.75in;
 }
+div#details {
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+}
 div#footnotes {
   font-size: 10pt;
   background-color: transparent;
