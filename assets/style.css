@@ -85,7 +85,7 @@ table {
   padding: 0.25in;
 }
 th, td {
-  padding: 0.25in;
+  padding: 0.1in 0.25in;
 }
 th {
   text-align: left;
