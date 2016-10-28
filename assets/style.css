@@ -18,7 +18,7 @@ html {
   background-color: black;
 }
 body > div {
-  padding: 0.25in;
+  /*padding: 0.25in;*/
   background-color: #ecf0f1;
   margin: 0 0 0.25in 0;
   border-radius: 5px;
@@ -63,6 +63,13 @@ div#slogan {
 div#details {
   background-image: url(background.jpg);
   background-size: cover;
+}
+div#detailsCover {
+  background-color: inherit;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  padding: 0.25in;
 }
 div#footnotes {
   font-size: 10pt;
