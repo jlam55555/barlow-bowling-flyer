@@ -63,6 +63,7 @@ div#slogan {
 div#details {
   background-image: url(background.jpg);
   background-size: cover;
+  position: relative;
 }
 div#detailsCover {
   background-color: inherit;
@@ -70,6 +71,7 @@ div#detailsCover {
   width: 100%;
   height: 100%;
   padding: 0.25in;
+  position: absolute;
 }
 div#footnotes {
   font-size: 10pt;
