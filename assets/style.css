@@ -68,8 +68,9 @@ div#details {
   height: 4px;
 }
 div#details::after {
-  height: 4px;
-  width: 10px;
+  height: 4in;
+  width: 100%;
+  margin-top: -4in;
   content: "";
 }
 div#detailsCover {
