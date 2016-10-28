@@ -64,6 +64,8 @@ div#details {
   background-image: url(background.jpg);
   background-size: cover;
   position: relative;
+  width: 100%;
+  height: 4px;
 }
 div#detailsCover {
   background-color: inherit;
@@ -79,9 +81,16 @@ div#footnotes {
   position: absolute;
   bottom: 0px;
 }
+table {
+  position: relative;
+  z-index: 1;
+  padding: 0.25in;
+}
+th, td {
+  padding: 0.25in;
+}
 th {
   text-align: left;
-  padding-right: 10px;
 }
 .footnote {
   font-size: smaller;
