@@ -9,7 +9,7 @@ body {
   font-size: 12pt;
   color: #2c3e50;
   margin: 0 auto;
-  background: repeating-linear-gradient(45deg, transparent 0px, transparent 5px, #bdc3c7 5.01px, #bdc3c7 10px), repeating-linear-gradient(-45deg, #fff 0px, #fff 5px, #bdc3c7 5.01px, #bdc3c7 10px);
+  background: repeating-linear-gradient(45deg, transparent 0px, transparent 5px, #e4f1fe 5.01px, #e4f1fe 10px), repeating-linear-gradient(-45deg, #fff 0px, #fff 5px, #e4f1fe 5.01px, #e4f1fe 10px);
 }
 html {
   margin: 0;
@@ -41,22 +41,26 @@ div#cover {
   position: absolute;
   padding-left: 0.125in;
 }
-div#title, div#slogan {
+div#title {
   display: inline-block;
   width: 5in;
   float: left;
   padding-left: 0.25in;
   color: #fff;
-}
-div#title {
   font-size: 1in;
   line-height: 1.1in;
   font-weight: bold;
   padding-top: 0.25in;
 }
-div#slogan {
-  height: 0.75in;
-  line-height: 0.75in;
+div#recruiting {
+  transform: rotate(-30deg);
+  font-size: 0.35in;
+  font-family: pacifico, cursive;
+  color: #2c3e50;
+  position: absolute;
+  top: 0.2in;
+  left: 4.2in;
+  line-height: 1;
 }
 div#description {
   color: #2c3e50;
@@ -101,7 +105,6 @@ div#details a {
   color: #95a5a6;
   text-decoration: none;
   border-bottom: 1px dotted #95a5a6;
-  padding-bottom: 2px;
   margin: 0;
 }
 div#detailsCover {
@@ -121,7 +124,7 @@ div#footnotes {
   height: 0.5in;
   position: relative;
   z-index: 1;
-  padding: 0 0.25in;
+  padding: 0 0.5in;
   font-size: 8pt;
 }
 table {
@@ -131,6 +134,7 @@ table {
 }
 th, td {
   padding: 0.1in 0.25in;
+  line-height: 1.2;
 }
 th {
   text-align: left;
