@@ -36,13 +36,14 @@ div#popout {
   color: white;
   position: absolute;
   top: 2in;
-  right: 7in;
-  width: 3in;
-  height: 3in;
-  line-height: 3in;
+  left: 0.5in;
+  width: 2in;
+  height: 2in;
+  line-height: 2in;
   text-align: center;
   border-radius: 100%;
-  font-size: 0.25in;
+  font-size: 0.5in;
+  transform: rotate(-15deg);
 }
 a {
   color: black;
