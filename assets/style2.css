@@ -1,0 +1,36 @@
+body {
+  width: 11in;
+  height: 8.5in;
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 1px;
+}
+div#join {
+  margin-top: 1in;
+  font-size: 1in;
+}
+div#main {
+  font-size: 1.5in;
+  font-weight: bold;
+  padding: 1in;
+  margin: auto 1in;
+  border: 20px groove grey;
+}
+div#link {
+  font-size: 0.25in;
+  margin-top: 0.5in;
+}
+img#bowlingo {
+  position: absolute;
+  top: 4.14in;
+  left: 3.5in;
+}
+img#bowlingl {
+  position: absolute;
+  top: 3.85in;
+  left: 6.15in;
+}
+a {
+  color: black;
+}
