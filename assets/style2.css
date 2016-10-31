@@ -31,6 +31,19 @@ img#bowlingl {
   top: 3.85in;
   left: 6.15in;
 }
+div#popout {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 2in;
+  right: 7in;
+  width: 3in;
+  height: 3in;
+  line-height: 3in;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 0.25in;
+}
 a {
   color: black;
 }
